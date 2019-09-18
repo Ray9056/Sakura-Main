@@ -11,6 +11,7 @@ import Menu from './core/Menu'
 
 class MainRouter extends Component {
   // Removes the server-side injected CSS when React component mounts
+  // Did Mount Example.
   componentDidMount() {
     const jssStyles = document.getElementById('jss-server-side')
     if (jssStyles && jssStyles.parentNode) {
