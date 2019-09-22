@@ -14,6 +14,7 @@ const theme = createMuiTheme({
     dark: '#FFB6C1',
     contrastText: '#fff',
   },
+  // 2nd theme
   secondary: {
     light: '#FFB6C1',
     main: '#FFB6C1',
@@ -26,6 +27,7 @@ const theme = createMuiTheme({
   }
 })
 
+// route to main app
 const App = () => (
   <BrowserRouter>
     <MuiThemeProvider theme={theme}>
@@ -34,4 +36,5 @@ const App = () => (
   </BrowserRouter>
 )
 
+//export default
 export default hot(module)(App)

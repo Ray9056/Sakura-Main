@@ -1,7 +1,8 @@
+// Webpack practice
 const path = require('path')
 const webpack = require('webpack')
 const CURRENT_WORKING_DIR = process.cwd()
-
+// Webpack config 
 const config = {
     name: "browser",
     mode: "development",
